@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <h2>Puntuación: 0</h2>
+    <canvas id="tetris" width="300" height="600"></canvas>
+
+    <form id="formularioNombre">
+        <label for="nombre">Escribe tu nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <button type="submit">Empezar</button>
+    </form>
+
+    <form id="reiniciar">
+        <button type="submit">Reiniciar</button>
+    </form>
+
+    <div id="instrucciones">
+        <h3>Instrucciones:</h3>
+        <textarea id="areaInstrucciones" rows="5" cols="30" readonly></textarea>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
